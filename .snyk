@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - coinbase-exchange-node > request > hawk:
+        patched: '2022-07-23T20:40:54.269Z'
+  'npm:http-signature:20150122':
+    - coinbase-exchange-node > request > http-signature:
+        patched: '2022-07-23T20:40:54.269Z'
+  'npm:request:20160119':
+    - coinbase-exchange-node > request:
+        patched: '2022-07-23T20:40:54.269Z'
+  'npm:tunnel-agent:20170305':
+    - coinbase-exchange-node > request > tunnel-agent:
+        patched: '2022-07-23T20:40:54.269Z'
